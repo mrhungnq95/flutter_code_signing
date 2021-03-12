@@ -49,7 +49,7 @@ Create repo recommend [private] and Setting your repo github with Secrets:
 - KEYCHAIN_NAME key
 - KEYCHAIN_PASSWORD cuoilen@123
 - MATCH_PASSWORD cuoilen@123
-- GIT_AUTHORIZATION 1459a92a566c1df9593daddd302395bf3ee7821e
+- GIT_AUTHORIZATION 002094c4aa8282f69c07f1ae0d45b9dc1525e9a3
 - FASTLANE_APPLE_ID huynh.developer@icloud.com
 - FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD hwuw-ykoh-sxcb-xxlc
 - DEVELOPER_PORTAL_TEAM_ID 3C2ZJ87Z72
