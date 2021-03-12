@@ -11,15 +11,15 @@ jobs:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
-      # - uses: actions/setup-java@v1
-      #   with:
-      #     java-version: "8.0.232"
-      # - uses: subosito/flutter-action@v1
-      #   with:
-      #     channel: "stable"
-      # - run: flutter clean
-      # - run: flutter pub get
-      # - run: flutter pub upgrade
+      - uses: actions/setup-java@v1
+        with:
+          java-version: "8.0.232"
+      - uses: subosito/flutter-action@v1
+        with:
+          channel: "stable"
+      - run: flutter clean
+      - run: flutter pub get
+      - run: flutter pub upgrade
       #ios
       # - run: flutter build ios --release --no-codesign
       # - name: Deploy to TestFlight via Fastlane
