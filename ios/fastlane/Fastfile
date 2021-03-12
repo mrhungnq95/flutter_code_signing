@@ -27,7 +27,7 @@ def ensure_temp_keychain(name, password)
 end
 
 platform :ios do
-  lane :testflight do
+  lane :appstore do
     keychain_name = KEYCHAIN_NAME
     keychain_password = KEYCHAIN_PASSWORD
     ensure_temp_keychain(keychain_name, keychain_password)
